@@ -3,9 +3,11 @@ body {
     font-family: Arial, sans-serif;
 }
 h1 {
-    color: navy;
+    color: black;
     text-align: center;
-    font-size: 40px;
+    font-size: 48px;
+    letter-spacing: normal;
+    text-transform: capitalize;
 }
 h2 {
     color: darkgreen;
@@ -13,9 +15,25 @@ h2 {
 }
 img {
     border: 3px solid black;
-    margin-top: 10px;
+    display: block;
+    margin: auto;
+    border-radius: 15px;
 }
 ul {
     background-color: white;
     padding: 20px;
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+.section-title {
+    background-color: darkgreen;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
